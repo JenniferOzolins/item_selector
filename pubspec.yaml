@@ -1,5 +1,5 @@
 name: item_selector
-version: 0.2.0
+version: 0.3.0
 description: >-
   A generic item selector that works with ListView, GridView, Row, Column,
   or basically any parent widget that can have indexed child widgets.
@@ -8,11 +8,11 @@ repository: https://github.com/jpnurmi/item_selector
 issue_tracker: https://github.com/jpnurmi/item_selector/issues
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=3.1.0 <4.0.0'
 dependencies:
   flutter:
     sdk: flutter
-  interval_tree: ^0.3.0
+  interval_tree: ^0.4.1
 dev_dependencies:
   flutter_test:
     sdk: flutter

@@ -191,7 +191,7 @@ class ItemSelection extends ItemSelectionNotifier with IterableMixin<int?> {
   IntervalTree _tree = IntervalTree();
 }
 
-class _ItemSelectionIterator extends Iterator<int?> {
+class _ItemSelectionIterator implements Iterator<int?> {
   _ItemSelectionIterator(this._ranges);
 
   /// Returns the current value.
